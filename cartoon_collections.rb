@@ -1,5 +1,5 @@
 def square_array(array)
-    array.map do |num|
+    array.map do |num| #returns a new array
     num * num 
   end 
 end
@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
     planeteer_calls.any? do |element|
-    element.length > 4
+    element.length > 4 #=> will check if any string is longer # than 4 characters
   end 
 end
 
